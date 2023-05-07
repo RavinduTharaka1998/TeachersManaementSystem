@@ -1,0 +1,27 @@
+.header{
+    position: fixed !important;
+    display: flex;
+    background-color: #640C0F;
+    width: 100%;
+    justify-content: center;
+}
+
+.header img {
+    height: 150px;
+    width: 180px;
+    align-content: center;
+}
+
+.item {
+    align-items: center;
+}
+
+.item h2 {
+    color:#F1CF3D;
+}
+
+.item h4 {
+    color: aliceblue;
+    
+    
+}
