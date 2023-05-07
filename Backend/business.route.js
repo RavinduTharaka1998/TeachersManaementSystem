@@ -1,6 +1,6 @@
 const express = require('express');
 const businessRoutes = express.Router();
-const bcrytpt = require('bcryptjs')
+
 
 let Customers = require('./business.model');
 
