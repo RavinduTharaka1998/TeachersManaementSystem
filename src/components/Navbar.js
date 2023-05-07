@@ -25,13 +25,23 @@ function Navbar() {
               </Link>
             </li>
             <li className="navlist">
-              <Link className="link" to="/viewTeacher">
+              <Link className="link" to="/">
                 <HistoryIcon /> &nbsp; History
               </Link>
             </li>
             <li className="leftlist">
               <Link className="link" to="/login">
                 <LoginIcon /> &nbsp; Login
+              </Link>
+            </li>
+            <li className="leftlist">
+              <Link className="link" to="/addTeacher">
+               <NewspaperIcon /> &nbsp; Add Teacher
+              </Link>
+            </li>
+            <li className="leftlist">
+              <Link className="link" to="/">
+               <HistoryIcon /> &nbsp; View Teacher
               </Link>
             </li>
           </ul>

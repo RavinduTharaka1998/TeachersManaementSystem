@@ -80,7 +80,7 @@ export default  class editTeacher extends  Component{
                             
                                     })
                                     console.log(res.data)});
-                            this.props.history.push('/viewTeacher');
+                            this.props.history.push('/');
                         
                     
                 }

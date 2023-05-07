@@ -63,7 +63,7 @@ export default  class addTeacher extends  Component{
                             
                                     })
                                     console.log(res.data)});
-                            this.props.history.push('/viewTeacher');
+                            this.props.history.push('/');
                         
                     
                 }

@@ -14,8 +14,8 @@ class App extends Component{
         <div>
                 <Router>
                     <Switch>
-                        <Route exact path='/' component={addTeacher}/>
-                        <Route  path='/viewTeacher' component={viewTeacher}/>
+                        <Route exact path='/' component={viewTeacher}/>
+                        <Route  path='/addTeacher' component={addTeacher}/>
                         <Route  path='/editTeacher/:id' component={editTeacher}/>
                     </Switch>
                 </Router>

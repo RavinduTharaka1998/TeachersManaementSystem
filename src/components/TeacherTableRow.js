@@ -14,7 +14,7 @@ class TableRow extends Component {
             .catch(err => console.log(err))
         //this.props.history.push('/index');
         alert("Successfully Deleted....")
-        window.location.replace('/viewTeacher');
+        window.location.replace('/');
     }
     render() {
         return (
